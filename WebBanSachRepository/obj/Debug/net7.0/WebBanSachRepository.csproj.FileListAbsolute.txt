@@ -1,0 +1,17 @@
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachRepository.deps.json
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachRepository.runtimeconfig.json
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachRepository.dll
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachRepository.pdb
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.csproj.AssemblyReference.cache
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.AssemblyInfoInputs.cache
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.AssemblyInfo.cs
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.csproj.CoreCompileInputs.cache
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.dll
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\refint\WebBanSachRepository.dll
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.pdb
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.genruntimeconfig.cache
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\ref\WebBanSachRepository.dll
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachModel.dll
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\bin\Debug\net7.0\WebBanSachModel.pdb
+D:\Do_An\WebBanSachAPI\WebBanSachRepository\obj\Debug\net7.0\WebBanSachRepository.csproj.CopyComplete
