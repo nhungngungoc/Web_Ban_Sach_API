@@ -39,7 +39,7 @@ namespace WebBanSachAPI.Controllers.User
         {  
             if(this.service.Update(userDto))
                 return ResponseApiCommon.Success(userDto);
-            return ResponseApiCommon.Error("Cập nhật thất bại");
+            return ResponseApiCommon.Error("Cập nhật thất bại ssdsd");
         }
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id) 
