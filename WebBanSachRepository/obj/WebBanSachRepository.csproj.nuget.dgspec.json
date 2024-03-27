@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Do_An\\WebBanSachAPI\\WebBanSachRepository\\WebBanSachRepository.csproj": {}
+    "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj": {}
   },
   "projects": {
-    "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\WebBanSachModel.csproj": {
+    "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\WebBanSachModel.csproj",
+        "projectUniqueName": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj",
         "projectName": "WebBanSachModel",
-        "projectPath": "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\WebBanSachModel.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\obj\\",
+        "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj",
+        "packagesPath": "C:\\Users\\ftpuser\\.nuget\\packages\\",
+        "outputPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ftpuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,25 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Do_An\\WebBanSachAPI\\WebBanSachRepository\\WebBanSachRepository.csproj": {
+    "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Do_An\\WebBanSachAPI\\WebBanSachRepository\\WebBanSachRepository.csproj",
+        "projectUniqueName": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj",
         "projectName": "WebBanSachRepository",
-        "projectPath": "D:\\Do_An\\WebBanSachAPI\\WebBanSachRepository\\WebBanSachRepository.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Do_An\\WebBanSachAPI\\WebBanSachRepository\\obj\\",
+        "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj",
+        "packagesPath": "C:\\Users\\ftpuser\\.nuget\\packages\\",
+        "outputPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ftpuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,15 +97,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\WebBanSachModel.csproj": {
-                "projectPath": "D:\\Do_An\\WebBanSachAPI\\WebBanSachModel\\WebBanSachModel.csproj"
+              "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj": {
+                "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj"
               }
             }
           }
@@ -164,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
