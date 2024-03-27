@@ -14,6 +14,9 @@ namespace WebBanSachModel.Helper
         public MappingProfile() 
         { 
             CreateMap<User, UserDto>().ReverseMap();
+            CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Product, ProductDto>().ReverseMap();
         }
+
     }
 }

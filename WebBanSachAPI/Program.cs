@@ -2,7 +2,11 @@ using Microsoft.EntityFrameworkCore;
 using WebBanSachModel.Entity;
 using WebBanSachModel.Helper;
 using WebBanSachRepository;
+using WebBanSachRepository.CategogyRepo;
+using WebBanSachRepository.ProductRepo;
 using WebBanSachRepository.UserRepo;
+using WebBanSachService.Category;
+using WebBanSachService.Product;
 using WebBanSachService.User;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +21,11 @@ builder.Services.AddDbContext<BanSachContext>(option =>
 option.UseSqlServer(builder.Configuration.GetConnectionString("Myconn")));
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUserRepo, UserRepo>();
+builder.Services.AddScoped<IProductRepo, ProductRepo>();
+builder.Services.AddScoped<ICategogyRepo, CategogyRepo>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 var app = builder.Build();
