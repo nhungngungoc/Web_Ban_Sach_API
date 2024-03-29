@@ -20,9 +20,13 @@ namespace WebBanSachAPI.Controllers.Category
             this.mapper = mapper;
         }
         [HttpPost]
-        public IActionResult Post(CategoryDto categoryDto)
+        public IActionResult Post(CategoryVM dto)
         {
-            categoryDto.Id = Guid.NewGuid();
+            var categoryDto = new CategoryDto()
+            {
+                Id = Guid.NewGuid(),
+                Name = dto.Name,
+            };
             if (this.service.Add(categoryDto))
             {
                 return ResponseApiCommon.Success(categoryDto);
@@ -35,7 +39,7 @@ namespace WebBanSachAPI.Controllers.Category
             var data = this.service.GetAll(categoryQuery);
             return ResponseApiCommon.Success(data);
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Put(CategoryDto categoryDto)
         {
             if (this.service.Update(categoryDto))
@@ -48,6 +52,14 @@ namespace WebBanSachAPI.Controllers.Category
             if (this.service.Delete(id))
                 return ResponseApiCommon.Success(id);
             return ResponseApiCommon.Error("Xóa thất bại");
+        }
+        [HttpGet("{id}")]
+        public IActionResult getbyId(Guid id)
+        {
+            var data = this.service.GetById(id);
+            if (data!=null)
+                return ResponseApiCommon.Success(data);
+            return ResponseApiCommon.Error("Category không tồn tại",404);
         }
     }
 }

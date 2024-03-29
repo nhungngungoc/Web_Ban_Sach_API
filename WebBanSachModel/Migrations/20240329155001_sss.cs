@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebBanSachModel.Migrations
 {
     /// <inheritdoc />
-    public partial class adđ : Migration
+    public partial class sss : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

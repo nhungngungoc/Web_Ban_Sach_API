@@ -12,8 +12,8 @@ using WebBanSachModel.Entity;
 namespace WebBanSachModel.Migrations
 {
     [DbContext(typeof(BanSachContext))]
-    [Migration("20240327025318_adđ")]
-    partial class adđ
+    [Migration("20240329155001_sss")]
+    partial class sss
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

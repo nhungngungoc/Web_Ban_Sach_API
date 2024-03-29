@@ -3021,7 +3021,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ftpuser\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3029,11 +3029,11 @@
       "projectUniqueName": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj",
       "projectName": "WebBanSachRepository",
       "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\WebBanSachRepository.csproj",
-      "packagesPath": "C:\\Users\\ftpuser\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ftpuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

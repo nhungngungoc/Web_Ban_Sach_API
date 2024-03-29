@@ -12,3 +12,17 @@ D:\Do_An\WebBanSachAPI\WebBanSachModel\obj\Debug\net7.0\refint\WebBanSachModel.d
 D:\Do_An\WebBanSachAPI\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.pdb
 D:\Do_An\WebBanSachAPI\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.genruntimeconfig.cache
 D:\Do_An\WebBanSachAPI\WebBanSachModel\obj\Debug\net7.0\ref\WebBanSachModel.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\bin\Debug\net7.0\WebBanSachModel.deps.json
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\bin\Debug\net7.0\WebBanSachModel.runtimeconfig.json
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\bin\Debug\net7.0\WebBanSachModel.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\bin\Debug\net7.0\WebBanSachModel.pdb
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.csproj.AssemblyReference.cache
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.GeneratedMSBuildEditorConfig.editorconfig
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.AssemblyInfoInputs.cache
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.AssemblyInfo.cs
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.csproj.CoreCompileInputs.cache
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\refint\WebBanSachModel.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.pdb
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\WebBanSachModel.genruntimeconfig.cache
+H:\nhung\Web_Ban_Sach_API\WebBanSachModel\obj\Debug\net7.0\ref\WebBanSachModel.dll
