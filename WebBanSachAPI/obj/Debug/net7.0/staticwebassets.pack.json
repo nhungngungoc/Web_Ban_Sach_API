@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg",
+      "PackagePath": "staticwebassets\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg"
+    },
+    {
+      "Id": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg",
+      "PackagePath": "staticwebassets\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebBanSachAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebBanSachAPI.props",
+      "PackagePath": "build\\WebBanSachAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebBanSachAPI.props",
+      "PackagePath": "buildMultiTargeting\\WebBanSachAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebBanSachAPI.props",
+      "PackagePath": "buildTransitive\\WebBanSachAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -5,6 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using WebBanSachModel.Entity;
+using WebBanSachRepository.common;
 
 namespace WebBanSachRepository
 {
@@ -17,5 +18,6 @@ namespace WebBanSachRepository
         bool Delete(Guid id);
         bool softDelete(Guid id);
         T FindOne(Expression<Func<T, bool>> predicate);
+        List<SelectListItem> GetDropdown(string displayMember, string valueMember, object selected = null);
     }
 }

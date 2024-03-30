@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebBanSachModel.Dto;
 using WebBanSachRepository.CategogyRepo;
+using WebBanSachRepository.common;
 using WebBanSachRepository.UserRepo;
 using WebBanSachService.Common;
 using WebBanSachService.User;
@@ -55,6 +56,11 @@ namespace WebBanSachService.Category
         public CategoryDto GetById(Guid id)
         {
             return _mapper.Map<CategoryDto>(_repository.GetbyId(id));
+        }
+
+        public List<SelectListItem> GetDropdown(string displayMember, string valueMember, object selected = null)
+        {
+            return _repository.GetDropdown(displayMember, valueMember, selected);
         }
     }
 }

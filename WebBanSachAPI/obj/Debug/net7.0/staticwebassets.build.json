@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "+vRoFSgurh9ifn9bwXCysoQ4jk20QAEeN3xVNO6DgrE=",
+  "Hash": "WhQ5Of/3yOAjxWZrsfICqNI6J9dMsDvtIIYJgV2Ye10=",
   "Source": "WebBanSachAPI",
   "BasePath": "_content/WebBanSachAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebBanSachAPI\\wwwroot",
+      "Source": "WebBanSachAPI",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "BasePath": "_content/WebBanSachAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg",
+      "SourceId": "WebBanSachAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "BasePath": "_content/WebBanSachAPI",
+      "RelativePath": "Upload/product/346628852_3569157126677660_806125988768809013_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg"
+    },
+    {
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg",
+      "SourceId": "WebBanSachAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "BasePath": "_content/WebBanSachAPI",
+      "RelativePath": "Upload/product/368215239_3665317050462275_5723972505702351697_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg"
+    }
+  ]
 }

@@ -61,5 +61,13 @@ namespace WebBanSachAPI.Controllers.Category
                 return ResponseApiCommon.Success(data);
             return ResponseApiCommon.Error("Category không tồn tại",404);
         }
+        [HttpGet("getDropdown")]
+        public IActionResult getsDropdown()
+        {
+            var data = this.service.GetDropdown("Name","Id");
+            if (data != null)
+                return ResponseApiCommon.Success(data);
+            return ResponseApiCommon.Error("getDropdown category thất bại", 404);
+        }
     }
 }

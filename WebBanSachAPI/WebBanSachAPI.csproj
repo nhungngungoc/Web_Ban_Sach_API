@@ -24,4 +24,8 @@
     <ProjectReference Include="..\WebBanSachService\WebBanSachService.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Upload\product\" />
+  </ItemGroup>
+
 </Project>

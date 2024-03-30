@@ -14,20 +14,45 @@ namespace WebBanSachAPI.Controllers.Product
     {
         private readonly IProductService service;
         private readonly IMapper mapper;
-        public ProductController(IProductService productService, IMapper mapper)
+        private readonly IWebHostEnvironment enviroment;
+
+        public ProductController(IProductService productService, IMapper mapper, IWebHostEnvironment enviroment)
         {
             this.service = productService;
             this.mapper = mapper;
+            this.enviroment = enviroment;
         }
         [HttpPost]
-        public IActionResult Post(ProductDto productDto)
+        public async Task<IActionResult> Post([FromForm]ProductVM provm)
         {
-            productDto.Id = Guid.NewGuid();
-            if (this.service.Add(productDto))
+            var dto = new ProductDto()
             {
-                return ResponseApiCommon.Success(productDto);
+                Id = Guid.NewGuid(),
+                Gia = provm.Gia,
+                CategoryId = provm.CategoryId,
+                MoTa = provm.MoTa,
+                TenSP = provm.TenSP,
+                TenTacGia = provm.TenTacGia,
+            };
+            try
+            {
+                var url = this.enviroment.WebRootPath + "\\Upload\\product\\" + provm.file.FileName;
+                using (FileStream stream = System.IO.File.Create(url))
+                {
+                    await provm.file.CopyToAsync(stream);
+                }
+
+                string hostUrl = $"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}";
+                dto.Image = hostUrl + "/Upload/product/" + provm.file.FileName;
+                if (this.service.Add(dto))
+                {
+                    return ResponseApiCommon.Success(dto);
+                }
+                return ResponseApiCommon.Error("Thêm Sản Phẩm Thất Bại");
+            }catch(Exception ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
             }
-            return ResponseApiCommon.Error("Thêm Sản Phẩm Thất Bại");
         }
         [HttpGet]
         public IActionResult Get([FromQuery] ProductQuery? productQuery)
@@ -48,6 +73,14 @@ namespace WebBanSachAPI.Controllers.Product
             if (this.service.Delete(id))
                 return ResponseApiCommon.Success(id);
             return ResponseApiCommon.Error("Xóa thất bại");
+        }
+        [HttpGet("{id}")]
+        public IActionResult getById(Guid id)
+        {
+            var data = this.service.GetById(id);
+            if (data!=null)
+                return ResponseApiCommon.Success(data);
+            return ResponseApiCommon.Error("Productd không tồn tại",404);
         }
     }
 }
