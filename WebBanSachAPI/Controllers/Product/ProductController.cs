@@ -22,8 +22,14 @@ namespace WebBanSachAPI.Controllers.Product
             this.mapper = mapper;
             this.enviroment = enviroment;
         }
+        [HttpGet]
+        public IActionResult Get([FromQuery] ProductQuery? productQuery)
+        {
+            var data = this.service.GetAll(productQuery);
+            return ResponseApiCommon.Success(data);
+        }
         [HttpPost]
-        public async Task<IActionResult> Post([FromForm]ProductVM provm)
+        public async Task<IActionResult> Post([FromForm] ProductVM provm)
         {
             var dto = new ProductDto()
             {
@@ -49,22 +55,45 @@ namespace WebBanSachAPI.Controllers.Product
                     return ResponseApiCommon.Success(dto);
                 }
                 return ResponseApiCommon.Error("Thêm Sản Phẩm Thất Bại");
-            }catch(Exception ex)
+            } catch (Exception ex)
             {
                 return ResponseApiCommon.Error(ex.Message);
             }
         }
-        [HttpGet]
-        public IActionResult Get([FromQuery] ProductQuery? productQuery)
+        
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put([FromForm]ProductVM vm,Guid id)
         {
-            var data = this.service.GetAll(productQuery);
-            return ResponseApiCommon.Success(data);
-        }
-        [HttpPut]
-        public IActionResult Put(ProductDto productDto)
-        {
-            if (this.service.Update(productDto))
-                return ResponseApiCommon.Success(productDto);
+            var checkProduct = this.service.GetById(id);
+            if(checkProduct==null)
+            {
+                return ResponseApiCommon.Error("Product không tồn tại",404);
+            }    
+            var dto = new ProductDto()
+            {
+                Id=id,
+                CategoryId=vm.CategoryId,
+                Gia=vm.Gia,
+                MoTa=vm.MoTa,
+                TenSP = vm.TenSP,
+                TenTacGia = vm.TenTacGia
+            };
+            if (vm.file != null)
+            {
+                var url = this.enviroment.WebRootPath + "\\Upload\\product\\" + vm.file.FileName;
+                using (FileStream stream = System.IO.File.Create(url))
+                {
+                    await vm.file.CopyToAsync(stream);
+                }
+                string hostUrl = $"{this.Request.Scheme}://{this.Request.Host}{this.Request.PathBase}";
+                dto.Image = hostUrl + "/Upload/product/" + vm.file.FileName;
+            }
+            else
+                dto.Image = checkProduct.Image;
+            if(this.service.Update(dto))
+            {
+                return ResponseApiCommon.Success(dto,"Cập nhật sản phẩm thành công");
+            }
             return ResponseApiCommon.Error("Cập nhật thất bại");
         }
         [HttpDelete("{id}")]
