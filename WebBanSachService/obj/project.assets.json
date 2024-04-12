@@ -1095,6 +1095,16 @@
           }
         }
       },
+      "Common.Helper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Common.Helper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.Helper.dll": {}
+        }
+      },
       "WebBanSachModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3021,6 +3031,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Common.Helper/1.0.0": {
+      "type": "project",
+      "path": "../Common.Helper/Common.Helper.csproj",
+      "msbuildProject": "../Common.Helper/Common.Helper.csproj"
+    },
     "WebBanSachModel/1.0.0": {
       "type": "project",
       "path": "../WebBanSachModel/WebBanSachModel.csproj",
@@ -3035,6 +3050,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper >= 13.0.1",
+      "Common.Helper >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.17",
@@ -3069,6 +3085,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "H:\\nhung\\Web_Ban_Sach_API\\Common.Helper\\Common.Helper.csproj": {
+              "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\Common.Helper\\Common.Helper.csproj"
+            },
             "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj": {
               "projectPath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj"
             },

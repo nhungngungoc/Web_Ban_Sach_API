@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.18" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.17" />
@@ -19,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common.Helper\Common.Helper.csproj" />
     <ProjectReference Include="..\WebBanSachModel\WebBanSachModel.csproj" />
     <ProjectReference Include="..\WebBanSachRepository\WebBanSachRepository.csproj" />
     <ProjectReference Include="..\WebBanSachService\WebBanSachService.csproj" />

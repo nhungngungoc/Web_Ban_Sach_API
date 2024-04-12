@@ -9,6 +9,8 @@
       "WebBanSachAPI/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Common.Helper": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.18",
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "Microsoft.EntityFrameworkCore": "7.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
@@ -72,6 +74,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.18": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.35.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "7.0.18.0",
+            "fileVersion": "7.0.1824.16924"
           }
         }
       },
@@ -636,6 +649,11 @@
           }
         }
       },
+      "Common.Helper/1.0.0": {
+        "runtime": {
+          "Common.Helper.dll": {}
+        }
+      },
       "WebBanSachModel/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
@@ -660,6 +678,7 @@
       "WebBanSachService/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Common.Helper": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.17",
           "WebBanSachModel": "1.0.0",
@@ -704,6 +723,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q3ejRbe6GQd035JdazYwsqapUqwcf/AMmw96RwiEXNZWr6GalQLCGYyxXnmAwWwhNpq1BX802qvL+feR9pUWiA==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.18",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.7.0.18.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.4": {
       "type": "package",
@@ -1159,6 +1185,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Common.Helper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "WebBanSachModel/1.0.0": {
       "type": "project",

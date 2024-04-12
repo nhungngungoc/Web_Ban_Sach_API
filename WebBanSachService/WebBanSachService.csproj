@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common.Helper\Common.Helper.csproj" />
     <ProjectReference Include="..\WebBanSachModel\WebBanSachModel.csproj" />
     <ProjectReference Include="..\WebBanSachRepository\WebBanSachRepository.csproj" />
   </ItemGroup>

@@ -165,3 +165,6 @@ H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\WebBanSachAPI.pdb
 H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\WebBanSachAPI.genruntimeconfig.cache
 H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\ref\WebBanSachAPI.dll
 H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\bin\Debug\net7.0\WebBanSachAPI.staticwebassets.runtime.json
+H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\bin\Debug\net7.0\Common.Helper.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\bin\Debug\net7.0\Common.Helper.pdb
+H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

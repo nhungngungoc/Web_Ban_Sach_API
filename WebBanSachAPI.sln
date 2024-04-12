@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanSachAPI", "WebBanSachAPI\WebBanSachAPI.csproj", "{5671B1B4-482A-46CC-8D37-0167C8A310D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBanSachAPI", "WebBanSachAPI\WebBanSachAPI.csproj", "{5671B1B4-482A-46CC-8D37-0167C8A310D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanSachService", "WebBanSachService\WebBanSachService.csproj", "{05FF02FD-BA97-4F75-B649-C9F773AFD2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBanSachService", "WebBanSachService\WebBanSachService.csproj", "{05FF02FD-BA97-4F75-B649-C9F773AFD2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanSachModel", "WebBanSachModel\WebBanSachModel.csproj", "{E767C801-64E8-4FFD-9377-9F37E555F069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBanSachModel", "WebBanSachModel\WebBanSachModel.csproj", "{E767C801-64E8-4FFD-9377-9F37E555F069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBanSachRepository", "WebBanSachRepository\WebBanSachRepository.csproj", "{A84DE300-60C5-4A33-8564-D8C75D0AE807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBanSachRepository", "WebBanSachRepository\WebBanSachRepository.csproj", "{A84DE300-60C5-4A33-8564-D8C75D0AE807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Helper", "Common.Helper\Common.Helper.csproj", "{80E45FAA-D2F5-4D92-BD64-927C54AACCD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A84DE300-60C5-4A33-8564-D8C75D0AE807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A84DE300-60C5-4A33-8564-D8C75D0AE807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A84DE300-60C5-4A33-8564-D8C75D0AE807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E45FAA-D2F5-4D92-BD64-927C54AACCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E45FAA-D2F5-4D92-BD64-927C54AACCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E45FAA-D2F5-4D92-BD64-927C54AACCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E45FAA-D2F5-4D92-BD64-927C54AACCD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

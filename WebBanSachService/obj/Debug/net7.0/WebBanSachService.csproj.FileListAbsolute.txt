@@ -36,3 +36,5 @@ H:\nhung\Web_Ban_Sach_API\WebBanSachService\obj\Debug\net7.0\refint\WebBanSachSe
 H:\nhung\Web_Ban_Sach_API\WebBanSachService\obj\Debug\net7.0\WebBanSachService.pdb
 H:\nhung\Web_Ban_Sach_API\WebBanSachService\obj\Debug\net7.0\WebBanSachService.genruntimeconfig.cache
 H:\nhung\Web_Ban_Sach_API\WebBanSachService\obj\Debug\net7.0\ref\WebBanSachService.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachService\bin\Debug\net7.0\Common.Helper.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachService\bin\Debug\net7.0\Common.Helper.pdb

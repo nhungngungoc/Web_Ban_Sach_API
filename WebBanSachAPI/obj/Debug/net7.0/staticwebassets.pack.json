@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg"
     },
     {
+      "Id": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg",
+      "PackagePath": "staticwebassets\\Upload\\product\\f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebBanSachAPI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
