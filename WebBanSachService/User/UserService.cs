@@ -36,7 +36,6 @@ namespace WebBanSachService.User
         {
             return _repository.Update(_mapper.Map<WebBanSachModel.Entity.User>(dto));
         }
-
         public PageListResultBO<UserDto> GetAll(UserQuery? query)
         {
             int begin = (query.page * query.limit) - query.limit;
@@ -60,6 +59,11 @@ namespace WebBanSachService.User
             if (data != null)
                 return true;
             return false;
+        }
+
+        public IEnumerable<UserDto> getAllNoQuery()
+        {
+           return _mapper.Map<List<UserDto>>(_repository.GetAll());
         }
     }
 }

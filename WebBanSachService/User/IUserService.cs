@@ -11,6 +11,7 @@ namespace WebBanSachService.User
     public interface IUserService
     {
         PageListResultBO<UserDto> GetAll(UserQuery? query);
+        IEnumerable<UserDto> getAllNoQuery();
         UserDto GetById(Guid id);
         bool Add(UserDto OrderDto);
         bool Update(UserDto OrderDto);

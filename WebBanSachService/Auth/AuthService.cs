@@ -41,7 +41,8 @@ namespace WebBanSachService.Auth
                     {
                         token = this.GenerateToken(user, JwtConstant.refresh_expiresIn),
                         expiresIn = JwtConstant.refresh_expiresIn
-                    }
+                    },
+                    Role= user.Quyen
                 };
             }
             catch (Exception ex)
@@ -58,7 +59,7 @@ namespace WebBanSachService.Auth
             var claims = new List<Claim>
             {
                 new Claim(ClaimsConstant.ROLE,user.Quyen),
-                new Claim(ClaimTypes.Name,user.HoVaTen),
+                //new Claim(ClaimTypes.Name,user.HoVaTen),
                 new Claim(ClaimsConstant.USER_ID,user.Id.ToString())
             };
 

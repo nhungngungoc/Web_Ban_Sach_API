@@ -12,7 +12,7 @@ namespace WebBanSachModel.Dto
         public Guid Id { get; set; }
         [MinLength(5)]
         [MaxLength(100)]
-        public string HoVaTen { get; set; }
+        public string? HoVaTen { get; set; }
         [MinLength(5)]
         public string MatKhau { get; set; }
         [MinLength(5)]
@@ -21,6 +21,6 @@ namespace WebBanSachModel.Dto
         public string? NgaySinh { get; set; }
         [MaxLength(20)]
         public string? Phone { get; set; }
-        public string Quyen { get; set; }
+        public string? Quyen { get; set; }
     }
 }

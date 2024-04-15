@@ -9,7 +9,7 @@ namespace WebBanSachModel.Entity
 {
     public class User:BaseEntity
     {
-        public string HoVaTen { get; set; }
+        public string? HoVaTen { get; set; }
         public string MatKhau{ get; set; }
         public string Email { get; set; }
         public string? NgaySinh { get; set; }

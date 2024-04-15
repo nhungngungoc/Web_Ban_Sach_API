@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebBanSachModel.Entity;
 
@@ -11,9 +12,11 @@ using WebBanSachModel.Entity;
 namespace WebBanSachModel.Migrations
 {
     [DbContext(typeof(BanSachContext))]
-    partial class BanSachContextModelSnapshot : ModelSnapshot
+    [Migration("20240415131218_sdsw")]
+    partial class sdsw
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -133,6 +136,7 @@ namespace WebBanSachModel.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoVaTen")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 

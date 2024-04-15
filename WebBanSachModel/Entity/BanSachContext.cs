@@ -21,7 +21,7 @@ namespace WebBanSachModel.Entity
             {
                 e.ToTable("tbl_User");
                 e.HasKey(p => p.Id);
-                e.Property(p => p.HoVaTen).IsRequired().HasMaxLength(100);
+                e.Property(p => p.HoVaTen).HasMaxLength(100);
                 e.Property(p => p.MatKhau).IsRequired().HasMaxLength(500);
             });
             modelBuilder.Entity<Category>(e =>
