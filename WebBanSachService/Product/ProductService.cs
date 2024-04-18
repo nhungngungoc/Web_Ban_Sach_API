@@ -44,9 +44,9 @@ namespace WebBanSachService.Product
         {
             int begin = (query.page * query.limit) - query.limit;
             var list = _mapper.Map<List<ProductDto>>(_repository.GetAll());
-            if (query.keyword != string.Empty)
+            if (query.keyword != string.Empty && query.keyword!=null)
             {
-                list = list.Where(x => x.TenSP.Equals(query.keyword)).ToList();
+                list = list.Where(x => x.TenSP.Contains(query.keyword.Trim())).ToList();
             }
             if(query.categoryId!=null)
             {

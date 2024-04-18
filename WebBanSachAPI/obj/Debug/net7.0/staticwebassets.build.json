@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VCRaiPQ4somqRLHZBFtQ7yxGMrHa7hZxBGQeNAVKOis=",
+  "Hash": "JfBfwXJit1cSuTGryWxq7/IM3ktXdwemOEv60D0MNUA=",
   "Source": "WebBanSachAPI",
   "BasePath": "_content/WebBanSachAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebBanSachAPI\\wwwroot",
       "Source": "WebBanSachAPI",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/346628852_3569157126677660_806125988768809013_n.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\346628852_3569157126677660_806125988768809013_n.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/368215239_3665317050462275_5723972505702351697_n.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\368215239_3665317050462275_5723972505702351697_n.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\50 Năm Quan Hệ Việt Nan - Campuchia Thành Tựu Và Phát Triển.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\50 Năm Quan Hệ Việt Nan - Campuchia Thành Tựu Và Phát Triển.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/50 Năm Quan Hệ Việt Nan - Campuchia Thành Tựu Và Phát Triển.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\50 Năm Quan Hệ Việt Nan - Campuchia Thành Tựu Và Phát Triển.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\AI - Trí Tuệ Nhân Tạo - 101 Điều Cần Biết Về Tương Lai.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\AI - Trí Tuệ Nhân Tạo - 101 Điều Cần Biết Về Tương Lai.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/AI - Trí Tuệ Nhân Tạo - 101 Điều Cần Biết Về Tương Lai.webp",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\AI - Trí Tuệ Nhân Tạo - 101 Điều Cần Biết Về Tương Lai.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Ăn Gì Để Sống.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Ăn Gì Để Sống.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Ăn Gì Để Sống.webp",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Ăn Gì Để Sống.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Biến Mọi Thứ Thành Tiền.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Biến Mọi Thứ Thành Tiền.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Biến Mọi Thứ Thành Tiền.webp",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Biến Mọi Thứ Thành Tiền.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cambridge IELTS 18 Academic.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cambridge IELTS 18 Academic.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Cambridge IELTS 18 Academic.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Cambridge IELTS 18 Academic.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Chính Sách Tiền Tệ Thế Kỷ 21.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Chính Sách Tiền Tệ Thế Kỷ 21.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Chính Sách Tiền Tệ Thế Kỷ 21.webp",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Chính Sách Tiền Tệ Thế Kỷ 21.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023).webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023).webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023).webp",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Cho Tôi Xin Một Vé Đi Tuổi Thơ (Tái Bản 2023).webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Chuyện Phiêu Lưu Của Mít Đặc Và Các Bạn.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Chuyện Phiêu Lưu Của Mít Đặc Và Các Bạn.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Chuyện Phiêu Lưu Của Mít Đặc Và Các Bạn.webp",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Chuyện Phiêu Lưu Của Mít Đặc Và Các Bạn.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Con Đường Của Nền Văn Minh.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Con Đường Của Nền Văn Minh.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Con Đường Của Nền Văn Minh.webp",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Con Đường Của Nền Văn Minh.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Công Chúa Poppy Bớt Nhựa, Thêm Vui! 38.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Công Chúa Poppy Bớt Nhựa, Thêm Vui! 38.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Công Chúa Poppy Bớt Nhựa, Thêm Vui! 38.webp",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Công Chúa Poppy Bớt Nhựa, Thêm Vui! 38.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cuộc Đời Và Số Phận.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Cuộc Đời Và Số Phận.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Cuộc Đời Và Số Phận.webp",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Cuộc Đời Và Số Phận.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Đừng Phí Hoài Tuổi Trẻ.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Đừng Phí Hoài Tuổi Trẻ.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Đừng Phí Hoài Tuổi Trẻ.webp",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Đừng Phí Hoài Tuổi Trẻ.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\f9cf615a-5cce-42f4-8924-20048bc1663c_1711966227092.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Giáo Trình Hán Ngữ 1 - Tập 1 - Quyển Thượng Phiên Bản Mới (Tái Bản 2022).jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Giáo Trình Hán Ngữ 1 - Tập 1 - Quyển Thượng Phiên Bản Mới (Tái Bản 2022).jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Giáo Trình Hán Ngữ 1 - Tập 1 - Quyển Thượng Phiên Bản Mới (Tái Bản 2022).jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Giáo Trình Hán Ngữ 1 - Tập 1 - Quyển Thượng Phiên Bản Mới (Tái Bản 2022).jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Hành Trình Của Người Bán Hàng Vĩ Đại.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Hành Trình Của Người Bán Hàng Vĩ Đại.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Hành Trình Của Người Bán Hàng Vĩ Đại.webp",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Hành Trình Của Người Bán Hàng Vĩ Đại.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Không Diệt Không Sinh Đừng Sợ Hãi.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Không Diệt Không Sinh Đừng Sợ Hãi.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Không Diệt Không Sinh Đừng Sợ Hãi.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Không Diệt Không Sinh Đừng Sợ Hãi.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Lê La Quà Vặt.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Lê La Quà Vặt.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Lê La Quà Vặt.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Lê La Quà Vặt.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Marketing Mix.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Marketing Mix.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Marketing Mix.webp",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Marketing Mix.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Nghịch Lý Của Tình Yêu Và Số Phận - Xuân Quỳnh.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Nghịch Lý Của Tình Yêu Và Số Phận - Xuân Quỳnh.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Nghịch Lý Của Tình Yêu Và Số Phận - Xuân Quỳnh.webp",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Nghịch Lý Của Tình Yêu Và Số Phận - Xuân Quỳnh.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\No Bad Parts - Không Có Phần Nào Xấu.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\No Bad Parts - Không Có Phần Nào Xấu.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/No Bad Parts - Không Có Phần Nào Xấu.webp",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\No Bad Parts - Không Có Phần Nào Xấu.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Ông Tướng Tình Báo Bí Ẩn Và Những Điệp Vụ Siêu Hạng.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Ông Tướng Tình Báo Bí Ẩn Và Những Điệp Vụ Siêu Hạng.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Ông Tướng Tình Báo Bí Ẩn Và Những Điệp Vụ Siêu Hạng.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Ông Tướng Tình Báo Bí Ẩn Và Những Điệp Vụ Siêu Hạng.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Quái Vật Băng - Bestseller Hài Hước Số Một Nước Anh Của David Walliams.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Quái Vật Băng - Bestseller Hài Hước Số Một Nước Anh Của David Walliams.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Quái Vật Băng - Bestseller Hài Hước Số Một Nước Anh Của David Walliams.webp",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Quái Vật Băng - Bestseller Hài Hước Số Một Nước Anh Của David Walliams.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Quẳng Gánh Lo Đi & Vui Sống.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Quẳng Gánh Lo Đi & Vui Sống.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Quẳng Gánh Lo Đi & Vui Sống.webp",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Quẳng Gánh Lo Đi & Vui Sống.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Thơ Cho Bé Tập Đọc Trôi Chảy Diễn Cảm - Bé Tập Làm Người Lớn 35.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Thơ Cho Bé Tập Đọc Trôi Chảy Diễn Cảm - Bé Tập Làm Người Lớn 35.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Thơ Cho Bé Tập Đọc Trôi Chảy Diễn Cảm - Bé Tập Làm Người Lớn 35.webp",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Thơ Cho Bé Tập Đọc Trôi Chảy Diễn Cảm - Bé Tập Làm Người Lớn 35.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Thời Khắc Còn Lại.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Thời Khắc Còn Lại.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Thời Khắc Còn Lại.webp",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Thời Khắc Còn Lại.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\THUẬT QUẢN LÝ THỜI GIAN.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\THUẬT QUẢN LÝ THỜI GIAN.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/THUẬT QUẢN LÝ THỜI GIAN.webp",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\THUẬT QUẢN LÝ THỜI GIAN.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tiếng Anh Cho NgườI Bắt Đầu.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tiếng Anh Cho NgườI Bắt Đầu.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Tiếng Anh Cho NgườI Bắt Đầu.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Tiếng Anh Cho NgườI Bắt Đầu.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tiếng Hàn Tổng Hợp Dành Cho Người Việt Nam - Sơ Cấp 1.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tiếng Hàn Tổng Hợp Dành Cho Người Việt Nam - Sơ Cấp 1.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Tiếng Hàn Tổng Hợp Dành Cho Người Việt Nam - Sơ Cấp 1.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Tiếng Hàn Tổng Hợp Dành Cho Người Việt Nam - Sơ Cấp 1.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tô Màu Theo Số - Tiên Cá.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tô Màu Theo Số - Tiên Cá.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Tô Màu Theo Số - Tiên Cá.webp",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Tô Màu Theo Số - Tiên Cá.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Truyện Hay Mỗi Ngày - Bồi Dưỡng Thói Quen Tốt 77.webp",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Truyện Hay Mỗi Ngày - Bồi Dưỡng Thói Quen Tốt 77.webp",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Truyện Hay Mỗi Ngày - Bồi Dưỡng Thói Quen Tốt 77.webp",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Truyện Hay Mỗi Ngày - Bồi Dưỡng Thói Quen Tốt 77.webp"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tủ Sách Tâm Linh Thế Kỷ - Trở Thành Con Người Mới.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Tủ Sách Tâm Linh Thế Kỷ - Trở Thành Con Người Mới.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Tủ Sách Tâm Linh Thế Kỷ - Trở Thành Con Người Mới.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\product\\Tủ Sách Tâm Linh Thế Kỷ - Trở Thành Con Người Mới.jpg"
     },
     {
-      "Identity": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Việt Nam Sử Lược.jpg",
+      "Identity": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\Upload\\product\\Việt Nam Sử Lược.jpg",
       "SourceId": "WebBanSachAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Do_An\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
+      "ContentRoot": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\wwwroot\\",
       "BasePath": "_content/WebBanSachAPI",
       "RelativePath": "Upload/product/Việt Nam Sử Lược.jpg",
       "AssetKind": "All",
