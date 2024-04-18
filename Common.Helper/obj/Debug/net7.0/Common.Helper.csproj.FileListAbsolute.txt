@@ -10,3 +10,15 @@ H:\nhung\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.dll
 H:\nhung\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\refint\Common.Helper.dll
 H:\nhung\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.pdb
 H:\nhung\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\ref\Common.Helper.dll
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\bin\Debug\net7.0\Common.Helper.deps.json
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\bin\Debug\net7.0\Common.Helper.dll
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\bin\Debug\net7.0\Common.Helper.pdb
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.csproj.AssemblyReference.cache
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.AssemblyInfoInputs.cache
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.AssemblyInfo.cs
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.csproj.CoreCompileInputs.cache
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.dll
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\refint\Common.Helper.dll
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\Common.Helper.pdb
+D:\Do_An\Web_Ban_Sach_API\Common.Helper\obj\Debug\net7.0\ref\Common.Helper.dll

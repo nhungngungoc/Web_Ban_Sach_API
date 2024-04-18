@@ -12,8 +12,8 @@ using WebBanSachModel.Entity;
 namespace WebBanSachModel.Migrations
 {
     [DbContext(typeof(BanSachContext))]
-    [Migration("20240415131218_sdsw")]
-    partial class sdsw
+    [Migration("20240418085412_sdsd")]
+    partial class sdsd
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -136,7 +136,6 @@ namespace WebBanSachModel.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoVaTen")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 

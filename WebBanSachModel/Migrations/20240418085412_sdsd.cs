@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebBanSachModel.Migrations
 {
     /// <inheritdoc />
-    public partial class sss : Migration
+    public partial class sdsd : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,7 @@ namespace WebBanSachModel.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    HoVaTen = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    HoVaTen = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
                     MatKhau = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NgaySinh = table.Column<string>(type: "nvarchar(max)", nullable: true),
