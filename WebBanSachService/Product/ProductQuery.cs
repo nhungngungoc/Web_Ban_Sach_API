@@ -9,5 +9,6 @@ namespace WebBanSachService.Product
 {
     public class ProductQuery : CommonListQuery
     {
+        public string? categoryId { get; set; }
     }
 }

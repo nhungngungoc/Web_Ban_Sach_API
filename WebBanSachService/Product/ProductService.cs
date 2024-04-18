@@ -48,6 +48,10 @@ namespace WebBanSachService.Product
             {
                 list = list.Where(x => x.TenSP.Equals(query.keyword)).ToList();
             }
+            if(query.categoryId!=null)
+            {
+                list = list.Where(x => x.CategoryId.Equals(Guid.Parse(query.categoryId))).ToList();
+            }    
             var resulteModel = new PageListResultBO<ProductDto>();
             resulteModel.items = list.Skip(begin).Take(query.limit).ToList();
             resulteModel.totalItems = list.Count();

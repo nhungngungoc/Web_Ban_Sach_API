@@ -11,7 +11,7 @@ namespace WebBanSachService.Common
         public int page { get; set; }
         public int limit { get; set; }
         public string orderBy { get; set; }
-        public string keyword { get; set; }
+        public string? keyword { get; set; }
         public CommonListQuery()
         {
             page = 1;

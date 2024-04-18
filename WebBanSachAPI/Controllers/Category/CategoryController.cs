@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebBanSachAPI.Common;
@@ -10,6 +11,7 @@ namespace WebBanSachAPI.Controllers.Category
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryService service;
@@ -68,6 +70,23 @@ namespace WebBanSachAPI.Controllers.Category
             if (data != null)
                 return ResponseApiCommon.Success(data);
             return ResponseApiCommon.Error("getDropdown category thất bại", 404);
+        }
+        [AllowAnonymous]
+        [HttpGet("getAll")]
+        public IActionResult getAll()
+        {
+            try
+            {
+                var data = this.service.getAllNoQuery();
+                if (data != null)
+                    return ResponseApiCommon.Success(data);
+                return ResponseApiCommon.Error("getAll category thất bại", 404);
+            }
+            catch(Exception ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
+
+            }
         }
     }
 }

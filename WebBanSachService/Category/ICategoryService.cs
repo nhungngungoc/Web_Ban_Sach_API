@@ -13,6 +13,7 @@ namespace WebBanSachService.Category
     public interface ICategoryService
     {
         PageListResultBO<CategoryDto> GetAll(CategoryQuery? query);
+        IEnumerable<CategoryDto> getAllNoQuery();
         CategoryDto GetById(Guid id);
         bool Add(CategoryDto OrderDto);
         bool Update(CategoryDto OrderDto);

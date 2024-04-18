@@ -62,5 +62,10 @@ namespace WebBanSachService.Category
         {
             return _repository.GetDropdown(displayMember, valueMember, selected);
         }
+
+        public IEnumerable<CategoryDto> getAllNoQuery()
+        {
+            return _mapper.Map<List<CategoryDto>>(_repository.GetAll());
+        }
     }
 }
