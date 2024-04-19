@@ -22,6 +22,48 @@ namespace WebBanSachModel.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Cart", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeleteAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DeleteBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tbl_Cart", (string)null);
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Category", b =>
                 {
                     b.Property<Guid>("Id")
@@ -162,6 +204,25 @@ namespace WebBanSachModel.Migrations
                     b.ToTable("tbl_User", (string)null);
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Cart", b =>
+                {
+                    b.HasOne("WebBanSachModel.Entity.Product", "Product")
+                        .WithMany("carts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebBanSachModel.Entity.User", "user")
+                        .WithMany("carts")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("user");
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Product", b =>
                 {
                     b.HasOne("WebBanSachModel.Entity.Category", "Category")
@@ -171,6 +232,16 @@ namespace WebBanSachModel.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("WebBanSachModel.Entity.Product", b =>
+                {
+                    b.Navigation("carts");
+                });
+
+            modelBuilder.Entity("WebBanSachModel.Entity.User", b =>
+                {
+                    b.Navigation("carts");
                 });
 #pragma warning restore 612, 618
         }

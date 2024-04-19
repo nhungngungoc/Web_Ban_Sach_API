@@ -15,6 +15,7 @@ namespace WebBanSachModel.Entity
         public DbSet<User> users { get; set; }
         public DbSet<Category> categorys { get; set; }
         public DbSet<Product> products { get; set; }
+        public DbSet<Cart> carts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(e =>
@@ -36,6 +37,13 @@ namespace WebBanSachModel.Entity
                 e.HasKey(p => p.Id);
                 e.Property(p => p.TenSP).IsRequired().HasMaxLength(100);
                 
+            });
+            modelBuilder.Entity<Cart>(e =>
+            {
+                e.ToTable("tbl_Cart");
+                e.HasKey(p => p.Id);
+                e.HasOne(c => c.Product).WithMany(p => p.carts).HasForeignKey(p => p.ProductId);
+                e.HasOne(u => u.user).WithMany(fr => fr.carts).HasForeignKey(u => u.UserId);
             });
         }
     }

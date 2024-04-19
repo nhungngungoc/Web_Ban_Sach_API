@@ -15,5 +15,6 @@ namespace WebBanSachModel.Entity
         public string TenTacGia { get; set; }
         public Guid CategoryId { get; set; }
         public virtual Category? Category { get; set; }
+        public IEnumerable<Cart> carts { get; set; }
     }
 }

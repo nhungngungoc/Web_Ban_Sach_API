@@ -16,7 +16,7 @@ namespace WebBanSachModel.Helper
             CreateMap<User, UserDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();
             CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Cart, CartDto>().ReverseMap();
         }
-
     }
 }
