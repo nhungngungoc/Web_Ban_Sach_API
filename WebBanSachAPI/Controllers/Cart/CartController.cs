@@ -46,5 +46,39 @@ namespace WebBanSachAPI.Controllers.Cart
                 return ResponseApiCommon.Error(ex.Message);
             }
         }
+        
+        [HttpGet]
+        public IActionResult get()
+        {
+            try
+            {
+                var userId = HttpContext.User.FindFirst(ClaimsConstant.USER_ID)?.Value;
+                if (userId == null)
+                {
+                    return ResponseApiCommon.Error("Token errro");
+                }
+                return ResponseApiCommon.Success(this.cartService.getCartDetailById(Guid.Parse(userId)));
+            }
+            catch (Exception ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
+            }
+        }
+        [HttpDelete("{id}")]
+        public IActionResult detele(Guid id)
+        {
+            try
+            {
+                if(this.cartService.Delete(id))
+                {
+                    return ResponseApiCommon.Success(id,"Xóa sản phẩm giỏ hàng thành công");
+                }
+               return ResponseApiCommon.Error("Xóa cart lỗi");
+            }
+            catch (Exception ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
+            }
+        }
     }
 }

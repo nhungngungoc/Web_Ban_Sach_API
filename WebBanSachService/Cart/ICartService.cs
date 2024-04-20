@@ -13,6 +13,6 @@ namespace WebBanSachService.Cart
         bool Add(CartDto cartDto);
         bool Update(CartDto cartDto);
         bool Delete(Guid id);
-
+        IEnumerable<CartDetail> getCartDetailById(Guid userId);
     }
 }
