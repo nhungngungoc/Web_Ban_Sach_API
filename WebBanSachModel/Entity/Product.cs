@@ -16,5 +16,7 @@ namespace WebBanSachModel.Entity
         public Guid CategoryId { get; set; }
         public virtual Category? Category { get; set; }
         public IEnumerable<Cart> carts { get; set; }
+        public IEnumerable<OrderDetails> OrderDetails { get; set; }
+
     }
 }

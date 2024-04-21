@@ -16,5 +16,7 @@ namespace WebBanSachModel.Entity
         public string? Phone { get; set; }
         public string Quyen { get; set; }
         public IEnumerable<Cart> carts { get; set; }
+        public IEnumerable<Order> Orders { get; set; }
+
     }
 }

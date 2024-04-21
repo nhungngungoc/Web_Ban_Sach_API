@@ -16,6 +16,8 @@ namespace WebBanSachModel.Entity
         public DbSet<Category> categorys { get; set; }
         public DbSet<Product> products { get; set; }
         public DbSet<Cart> carts { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public DbSet<OrderDetails> orderDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(e =>
@@ -44,6 +46,20 @@ namespace WebBanSachModel.Entity
                 e.HasKey(p => p.Id);
                 e.HasOne(c => c.Product).WithMany(p => p.carts).HasForeignKey(p => p.ProductId);
                 e.HasOne(u => u.user).WithMany(fr => fr.carts).HasForeignKey(u => u.UserId);
+            });
+
+            modelBuilder.Entity<Order>(e =>
+            {
+                e.ToTable("tbl_Order");
+                e.HasKey(p => p.Id);
+                e.HasOne(u => u.user).WithMany(fr => fr.Orders).HasForeignKey(u => u.UserId);
+            });
+            modelBuilder.Entity<OrderDetails>(e =>
+            {
+                e.ToTable("tbl_OrderDetail");
+                e.HasKey(p => p.Id);
+                e.HasOne(c => c.order).WithMany(p => p.orderDetails).HasForeignKey(p => p.OrderId);
+                e.HasOne(u => u.product).WithMany(fr => fr.OrderDetails).HasForeignKey(u => u.ProductId);
             });
         }
     }

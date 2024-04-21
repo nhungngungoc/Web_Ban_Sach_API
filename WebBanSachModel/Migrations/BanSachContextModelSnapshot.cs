@@ -98,6 +98,106 @@ namespace WebBanSachModel.Migrations
                     b.ToTable("tbl_Category", (string)null);
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Order", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeleteAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DeleteBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DiaChi")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("NgayDat")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NguoiNhan")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("Total")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("TrangThai")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("tbl_Order", (string)null);
+                });
+
+            modelBuilder.Entity("WebBanSachModel.Entity.OrderDetails", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DeleteAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DeleteBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("OrderId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UpdateBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("tbl_OrderDetail", (string)null);
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Product", b =>
                 {
                     b.Property<Guid>("Id")
@@ -223,6 +323,36 @@ namespace WebBanSachModel.Migrations
                     b.Navigation("user");
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Order", b =>
+                {
+                    b.HasOne("WebBanSachModel.Entity.User", "user")
+                        .WithMany("Orders")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("user");
+                });
+
+            modelBuilder.Entity("WebBanSachModel.Entity.OrderDetails", b =>
+                {
+                    b.HasOne("WebBanSachModel.Entity.Order", "order")
+                        .WithMany("orderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebBanSachModel.Entity.Product", "product")
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("order");
+
+                    b.Navigation("product");
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Product", b =>
                 {
                     b.HasOne("WebBanSachModel.Entity.Category", "Category")
@@ -234,13 +364,22 @@ namespace WebBanSachModel.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Order", b =>
+                {
+                    b.Navigation("orderDetails");
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Product", b =>
                 {
+                    b.Navigation("OrderDetails");
+
                     b.Navigation("carts");
                 });
 
             modelBuilder.Entity("WebBanSachModel.Entity.User", b =>
                 {
+                    b.Navigation("Orders");
+
                     b.Navigation("carts");
                 });
 #pragma warning restore 612, 618

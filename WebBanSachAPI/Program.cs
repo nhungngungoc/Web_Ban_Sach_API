@@ -10,11 +10,15 @@ using WebBanSachModel.Helper;
 using WebBanSachRepository;
 using WebBanSachRepository.CartRepo;
 using WebBanSachRepository.CategogyRepo;
+using WebBanSachRepository.Order;
+using WebBanSachRepository.OrderDetail;
 using WebBanSachRepository.ProductRepo;
 using WebBanSachRepository.UserRepo;
 using WebBanSachService.Auth;
 using WebBanSachService.Cart;
 using WebBanSachService.Category;
+using WebBanSachService.Order;
+using WebBanSachService.OrderDetail;
 using WebBanSachService.Product;
 using WebBanSachService.User;
 
@@ -102,11 +106,17 @@ builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddScoped<IProductRepo, ProductRepo>();
 builder.Services.AddScoped<ICategogyRepo, CategogyRepo>();
 builder.Services.AddScoped<ICartRepo, CartRepo>();
+builder.Services.AddScoped<IOrderDetailRepo, OrderDeatilRepo>();
+builder.Services.AddScoped<IOrderRepo, OrderRepo>();
+
+
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
 
 
 
