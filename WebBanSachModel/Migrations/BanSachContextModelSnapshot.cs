@@ -98,6 +98,39 @@ namespace WebBanSachModel.Migrations
                     b.ToTable("tbl_Category", (string)null);
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Huyen", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Loai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MaHuyen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenHuyen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TinhId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HUYEN");
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.Order", b =>
                 {
                     b.Property<Guid>("Id")
@@ -252,6 +285,35 @@ namespace WebBanSachModel.Migrations
                     b.ToTable("tbl_Product", (string)null);
                 });
 
+            modelBuilder.Entity("WebBanSachModel.Entity.Tinh", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Loai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MaTinh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OldSysId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenTinh")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TINH");
+                });
+
             modelBuilder.Entity("WebBanSachModel.Entity.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -302,6 +364,39 @@ namespace WebBanSachModel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("tbl_User", (string)null);
+                });
+
+            modelBuilder.Entity("WebBanSachModel.Entity.Xa", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("HuyenId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Loai")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MaXa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TenXa")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("XA");
                 });
 
             modelBuilder.Entity("WebBanSachModel.Entity.Cart", b =>

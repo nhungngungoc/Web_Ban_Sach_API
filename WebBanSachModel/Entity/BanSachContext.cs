@@ -18,6 +18,10 @@ namespace WebBanSachModel.Entity
         public DbSet<Cart> carts { get; set; }
         public DbSet<Order> orders { get; set; }
         public DbSet<OrderDetails> orderDetails { get; set; }
+        //public DbSet<Xa> XA { get; set; }
+        public DbSet<Huyen> HUYEN { get; set; }
+        public DbSet<Tinh> TINH { get; set; }
+        public DbSet<Xa> XA { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>(e =>
