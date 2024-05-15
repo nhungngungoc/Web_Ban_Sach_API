@@ -14,12 +14,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Common.Helper\Common.Helper.csproj" />
     <ProjectReference Include="..\WebBanSachModel\WebBanSachModel.csproj" />
     <ProjectReference Include="..\WebBanSachRepository\WebBanSachRepository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pay\" />
   </ItemGroup>
 
 </Project>

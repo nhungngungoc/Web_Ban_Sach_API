@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ECHdKsv5Gpkj9O+2FrKF6b1HCh8cfHXuQngn9inspySNQYZl3Qrn44Lky7RCtrgdNg2sCnUBkqp2o8ctviXr3w==",
+  "dgSpecHash": "/qsRbgedxvmy5Ez6K9XJUH4gsPRYM4Hj75HDWsMaKupRGnD/Y+HGnwUyC/i88AeVcS6+Er82jHc/CUbzZr2ZSw==",
   "success": true,
   "projectFilePath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachAPI\\WebBanSachAPI.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -255,3 +255,4 @@ D:\Do_An\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\refint\WebBanSachAPI.dl
 D:\Do_An\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\WebBanSachAPI.pdb
 D:\Do_An\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\WebBanSachAPI.genruntimeconfig.cache
 D:\Do_An\Web_Ban_Sach_API\WebBanSachAPI\obj\Debug\net7.0\ref\WebBanSachAPI.dll
+H:\nhung\Web_Ban_Sach_API\WebBanSachAPI\bin\Debug\net7.0\Newtonsoft.Json.dll

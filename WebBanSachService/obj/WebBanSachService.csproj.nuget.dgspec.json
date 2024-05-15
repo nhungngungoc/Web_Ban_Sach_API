@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -112,6 +118,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [
@@ -191,6 +201,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [
@@ -276,6 +290,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
             }
           },
           "imports": [

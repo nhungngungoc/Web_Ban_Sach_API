@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UUlpcUGrrXcaa5QFNA1PQjLSsmZILpmEQXaiSnHbM9/dRrY+bMAX8ULS9J+5JYVOJ3XsG2VzUSTZZShPbB4bqg==",
+  "dgSpecHash": "hgLYCuWZKcjvB1nNKDsowqaTF0aJE+ODfwVUbPp9odvrnq5/jxUJ1Yg+UNuj8IHLXCtN6Cz2aodUX6qxEfGYug==",
   "success": true,
   "projectFilePath": "H:\\nhung\\Web_Ban_Sach_API\\WebBanSachModel\\WebBanSachModel.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

@@ -1,9 +1,11 @@
 ﻿using Common.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using WebBanSachAPI.Controllers.Pay;
 using WebBanSachAPI.seed;
 using WebBanSachModel.Entity;
 using WebBanSachModel.Helper;
@@ -28,10 +30,6 @@ builder.Services.AddCors(c =>
     c.AddPolicy("AllowOrigin", option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 });
 
-
-
-
-builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 
 builder.Services.AddAuthentication(options =>
 {
@@ -111,6 +109,7 @@ builder.Services.AddScoped<IOrderRepo, OrderRepo>();
 
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IVnPayService, VnPayService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IAuthService, AuthService>();

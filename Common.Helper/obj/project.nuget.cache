@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3pvwZ1yuCtTduYLTgopGDOMjMDgUR+3Hx8rDtEPoZq1HhyJM6TQC+0+9Iy+9ARp4BpESZMaiiZF3C+aScxxfsQ==",
+  "dgSpecHash": "49vacg31QOiWigzPq2y2QjXTtcc9+q8pwg7pCkrYmYF2Z9IAVMn69i/O7R/Yed/6TS3Yo/LdMIEvRLwMug4g+Q==",
   "success": true,
   "projectFilePath": "H:\\nhung\\Web_Ban_Sach_API\\Common.Helper\\Common.Helper.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
