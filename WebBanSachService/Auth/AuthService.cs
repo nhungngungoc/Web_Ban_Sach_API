@@ -35,7 +35,7 @@ namespace WebBanSachService.Auth
                     accessToken = new
                     {
                         token = this.GenerateToken(user, JwtConstant.expiresIn),
-                        expiresIn = JwtConstant.refresh_expiresIn
+                        expiresIn = JwtConstant.expiresIn
                     },
                     refreshToken = new
                     {
@@ -50,6 +50,93 @@ namespace WebBanSachService.Auth
                 throw new CommonException("Erro check login Authservice", 500, ex);
             }
         }
+
+        public dynamic refreshToken(string token)
+        {
+            try
+            {
+                var idUser = this.GetClaimValueFromToken(token, ClaimsConstant.USER_ID);
+                if (idUser == null)
+                {
+                    throw new CommonException("Unauthorized", 401);
+                }
+                var user = this._repo.GetbyId(Guid.Parse(idUser));
+                if (user == null)
+                {
+                    throw new CommonException("Unauthorized", 401);
+                }
+                return new
+                {
+                    accessToken = new
+                    {
+                        token = this.GenerateToken(user, JwtConstant.expiresIn),
+                        expiresIn = JwtConstant.refresh_expiresIn
+                    },
+                    refreshToken = new
+                    {
+                        token = this.GenerateToken(user, JwtConstant.refresh_expiresIn),
+                        expiresIn = JwtConstant.refresh_expiresIn
+                    },
+                    Role = user.Quyen
+                };
+            }
+            catch (Exception ex)
+            {
+                throw new CommonException(ex.Message, 500, ex);
+            }
+        }
+        private string GetClaimValueFromToken(string token, string claimType)
+        {
+            ClaimsPrincipal principal = ValidateToken(token);
+            if (principal != null)
+            {
+                // Lấy danh sách các claims từ principal
+                var claims = principal.Claims;
+
+                // Duyệt qua danh sách claims để tìm thông tin cụ thể
+                foreach (var claim in claims)
+                {
+                    // Kiểm tra nếu claim có kiểu dữ liệu tương ứng với hằng số claimType
+                    if (claim.Type == claimType)
+                    {
+                        // Trả về giá trị của claim
+                        return claim.Value;
+                    }
+                }
+            }
+            // Trả về null nếu không tìm thấy thông tin từ token hoặc token không hợp lệ
+            return null;
+        }
+        private ClaimsPrincipal ValidateToken(string token)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var validationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidIssuer = _jwtSetting.Issuer,
+                ValidAudience = _jwtSetting.Audience,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSetting.Secret))
+            };
+
+            try
+            {
+                // Giải mã token
+                ClaimsPrincipal principal = tokenHandler.ValidateToken(token, validationParameters, out SecurityToken validatedToken);
+                return principal;
+            }
+            catch (SecurityTokenValidationException)
+            {
+                // Xử lý khi token không hợp lệ
+                return null;
+            }
+            catch (Exception)
+            {
+                // Xử lý lỗi khác (nếu có)
+                return null;
+            }
+        }
+
         private string GenerateToken(WebBanSachModel.Entity.User user, int time)
         {
             var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(this._jwtSetting.Secret));

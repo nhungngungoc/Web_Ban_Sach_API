@@ -63,5 +63,18 @@ namespace WebBanSachAPI.Controllers.Auth
                 return ResponseApiCommon.Error(ex.Message, ex.StatusCode);
             }
         }
+        [HttpGet("refresh/{token}")]
+        public IActionResult result(string token)
+        {
+            try
+            {
+                var data = authService.refreshToken(token);
+                return ResponseApiCommon.Success(data, "Ok");
+            }
+            catch (CommonException ex)
+            {
+                return ResponseApiCommon.Error(ex.Message, ex.StatusCode);
+            }
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace WebBanSachModel.Entity
         public DateTime NgayDat { get; set; }
         public int TrangThai { get; set; }
         public Guid UserId { get; set; }
+        public string TypePay { get; set; }
         public User user { get; set; }
         public IEnumerable<OrderDetails> orderDetails { get; set; }
     }

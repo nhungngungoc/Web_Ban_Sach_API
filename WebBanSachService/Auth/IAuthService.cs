@@ -9,5 +9,7 @@ namespace WebBanSachService.Auth
     public interface IAuthService
     {
         dynamic checklogin(string username, string password);
+        dynamic refreshToken(string token);
+
     }
 }

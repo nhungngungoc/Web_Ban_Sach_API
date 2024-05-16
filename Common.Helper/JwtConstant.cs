@@ -8,8 +8,8 @@ namespace Common.Helper
 {
     public static class JwtConstant
     {
-        public static int expiresIn { get; } = 1000;
-        public static int refresh_expiresIn { get; } = 1200;
+        public static int expiresIn { get; } = 20000;
+        public static int refresh_expiresIn { get; } = 30000;
     }
     public static class ClaimsConstant
     {

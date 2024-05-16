@@ -7,5 +7,6 @@
         public string DiaChi { get; set; }
         public long Total { get; set; }
         public List<Guid> cartId { get; set; }
+        public string TypePay { get; set; }
     }
 }

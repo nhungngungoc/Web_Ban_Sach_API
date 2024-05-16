@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WebBanSachModel.Entity;
 
 namespace WebBanSachModel.Dto
 {
@@ -16,5 +17,6 @@ namespace WebBanSachModel.Dto
         public DateTime NgayDat { get; set; }
         public int TrangThai { get; set; }
         public Guid UserId { get; set; }
+        public string TypePay { get; set; }
     }
 }
