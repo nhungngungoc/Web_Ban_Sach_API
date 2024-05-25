@@ -164,5 +164,38 @@ namespace WebBanSachAPI.Controllers.Order
             string myChecksum = PayLib.HmacSHA512(secretKey, rspraw);
             return myChecksum.Equals(inputHash, StringComparison.InvariantCultureIgnoreCase);
         }
+        [Authorize]
+        [HttpGet("getListOrderByUserId")]
+        public IActionResult getListOrderByUserId()
+        {
+            try
+            {
+                var userId = HttpContext.User.FindFirst(ClaimsConstant.USER_ID)?.Value;
+                if (userId == null)
+                {
+                    return ResponseApiCommon.Error("không có userId");
+                }
+                var data = this.service.getAllNoQuery().Where(x=>x.UserId==Guid.Parse(userId)).ToList();
+                return ResponseApiCommon.Success(data);
+            }
+            catch(CommonException ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
+            }
+        }
+        [Authorize]
+        [HttpGet("getListOrderDetailByUserId/{orderId}")]
+        public IActionResult getListOrderDetailByUserId(Guid orderId)
+        {
+            try
+            {
+                
+                return ResponseApiCommon.Success(this.service.GetOrderDetails(orderId));
+            }
+            catch (CommonException ex)
+            {
+                return ResponseApiCommon.Error(ex.Message);
+            }
+        }
     }
 }

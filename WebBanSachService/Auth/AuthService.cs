@@ -42,7 +42,7 @@ namespace WebBanSachService.Auth
                         token = this.GenerateToken(user, JwtConstant.refresh_expiresIn),
                         expiresIn = JwtConstant.refresh_expiresIn
                     },
-                    Role= user.Quyen
+                    Role= user.Quyen,
                 };
             }
             catch (Exception ex)

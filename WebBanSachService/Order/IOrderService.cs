@@ -11,5 +11,6 @@ namespace WebBanSachService.Order
     {
         bool Add(OrderDto OrderDto);
         IEnumerable<OrderDto> getAllNoQuery();
+        IEnumerable<OrderDetail> GetOrderDetails(Guid orderId);
     }
 }
