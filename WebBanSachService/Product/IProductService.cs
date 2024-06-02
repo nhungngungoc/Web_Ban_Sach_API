@@ -17,5 +17,7 @@ namespace WebBanSachService.Product
         bool Update(ProductDto OrderDto);
         bool Delete(Guid id);
         bool softDelete(Guid id);
+        IEnumerable<ProductDto> getAllNoQuery();
+
     }
 }

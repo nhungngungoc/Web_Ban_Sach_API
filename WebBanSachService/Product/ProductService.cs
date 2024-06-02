@@ -62,5 +62,9 @@ namespace WebBanSachService.Product
             return _mapper.Map<ProductDto>(_repository.GetbyId(id));
         }
 
+        public IEnumerable<ProductDto> getAllNoQuery()
+        {
+            return _mapper.Map<List<ProductDto>>(_repository.GetAll());
+        }
     }
 }
